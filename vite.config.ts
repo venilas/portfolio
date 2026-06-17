@@ -19,7 +19,7 @@ function figmaAssetResolver() {
 export default defineConfig({
   // GitHub Pages deployment configuration
   // Set base to your repo name: '/your-repo-name/' or leave as '/' for custom domain
-  base: process.env.VITE_BASE_PATH || '/',
+  base: process.env.VITE_BASE_PATH || '/portfolio/',
 
   plugins: [
     figmaAssetResolver(),
